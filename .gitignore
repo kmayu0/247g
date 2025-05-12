@@ -28,7 +28,7 @@ Thumbs.db
 .collab/
 
 # Ignore specific Unity layout files
-UserSettings/Layouts/*.dwlt
+UserSettings/
 
 # Others
 *.apk
