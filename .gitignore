@@ -24,11 +24,13 @@
 .DS_Store
 Thumbs.db
 
-# Collab
+# Unity Collaborate
 .collab/
+
+# Ignore specific Unity layout files
+UserSettings/Layouts/*.dwlt
 
 # Others
 *.apk
 *.aab
 *.unitypackage
-
