@@ -1,37 +1,62 @@
 using UnityEngine;
+using System.Collections;
 
 public class DialManager : MonoBehaviour
 {
     public DialController[] dials;
-    public float[] targetAngles = new float[] { 45f, 90f, 315f, 180f }; // Example targets
+    public float[] targetAngles = new float[] { 45f, 90f, 315f, 180f };
+
+    public GameObject solvedPopup; // assign in Inspector
+
+    private bool puzzleSolved = false;
 
     void Start()
     {
-        // Subscribe to the OnDialRotated event for each dial
         foreach (var dial in dials)
         {
             dial.OnDialRotated += OnAnyDialRotated;
         }
+
+        if (solvedPopup != null)
+            solvedPopup.SetActive(false); // hide initially
     }
 
     void OnAnyDialRotated(float snappedAngle)
     {
-        // Track if each dial is correct
+        if (puzzleSolved) return;
+
         bool allCorrect = true;
 
-        // Iterate through each dial and check if its angle matches the target
         for (int i = 0; i < dials.Length; i++)
         {
             float currentAngle = Mathf.Round(dials[i].GetDialAngle());
             float expectedAngle = targetAngles[i];
+
             if (Mathf.Abs(Mathf.DeltaAngle(currentAngle, expectedAngle)) > 1f)
             {
                 allCorrect = false;
             }
         }
+
         if (allCorrect)
         {
+            puzzleSolved = true;
             Debug.Log("✅ Puzzle solved!");
+            if (solvedPopup != null)
+                StartCoroutine(ShowPopup());
+        }
+    }
+
+    IEnumerator ShowPopup()
+    {
+        solvedPopup.SetActive(true);
+        solvedPopup.transform.localScale = Vector3.zero;
+        float t = 0f;
+        while (t < 1f)
+        {
+            t += Time.deltaTime * 4f;
+            solvedPopup.transform.localScale = Vector3.Lerp(Vector3.zero, Vector3.one, t);
+            yield return null;
         }
     }
 }
