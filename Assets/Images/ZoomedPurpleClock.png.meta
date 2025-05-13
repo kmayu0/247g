@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ZoomedPurpleClock_0: -6392299897643083542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
