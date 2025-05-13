@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 62b9579ce41914886911baf5242ec57a
+guid: 5447e1cc401fc4c7e8b5e5d2d6a295db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6027614852246648341
-    second: mochi_0
+      213: -2299126054580025387
+    second: bread-shelf-darker_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mochi_0
+      name: bread-shelf-darker_0
       rect:
         serializedVersion: 2
-        x: 519
-        y: 55
-        width: 1091
-        height: 1858
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 516b70fb5c366a350800000000000000
-      internalID: 6027614852246648341
+      spriteID: 5d789eed80dd710e0800000000000000
+      internalID: -2299126054580025387
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mochi_0: 6027614852246648341
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
