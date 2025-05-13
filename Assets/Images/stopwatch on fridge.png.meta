@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stopwatch on fridge_0: 3435872199353854907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
