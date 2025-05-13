@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zoomed stopwatch_0: -2329098032023012898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

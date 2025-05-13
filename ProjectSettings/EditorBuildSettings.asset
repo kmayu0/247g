@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/zoomedClock.unity
     guid: 884447d10c1694f9eba2d012a82a86df
+  - enabled: 1
+    path: Assets/Scenes/MainKitchen.unity
+    guid: ff1993a10b243491ba31d54db1fb949c
+  - enabled: 1
+    path: Assets/Scenes/OpenDrawer.unity
+    guid: 7d2e327ed7cb5499d951bbfca2c4e9ca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

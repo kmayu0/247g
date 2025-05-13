@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clockOnWall_0: -826072956581343663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
