@@ -3,11 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class KitchenButton : MonoBehaviour
 {
-    public string sceneToLoad;
-
-    void OnMouseDown()
+    public void LoadSceneByName(string sceneName)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(sceneName);
     }
 }
-
