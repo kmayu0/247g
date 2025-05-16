@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be099e076b2f64a5f927c411224f5b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MainKitchen
+  sceneToLoad: MainKitch2
 --- !u!114 &1793954688
 MonoBehaviour:
   m_ObjectHideFlags: 0
