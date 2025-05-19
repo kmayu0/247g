@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 422604168}
   - component: {fileID: 422604167}
   m_Layer: 5
-  m_Name: Image
+  m_Name: clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1119,7 +1119,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -501.87, y: -4.8311}
+  m_AnchoredPosition: {x: -380.23, y: 0.000015736}
   m_SizeDelta: {x: 198.57, y: 14.5708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663676834
