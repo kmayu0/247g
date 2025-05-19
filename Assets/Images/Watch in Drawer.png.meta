@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e7b07b9b27a5d44288c0d219172633ee
+guid: bba82108c896d4a45a0d8219152eb1b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1187357484043238799
-    second: resized_0
+      213: -4718165397441748046
+    second: Watch in Drawer_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: resized_0
+      name: Watch in Drawer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 172833eb8a8a58fe0800000000000000
-      internalID: -1187357484043238799
+      spriteID: 2b3e1f5a195b58eb0800000000000000
+      internalID: -4718165397441748046
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      resized_0: -1187357484043238799
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
