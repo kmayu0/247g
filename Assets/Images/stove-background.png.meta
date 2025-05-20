@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 97fdd6bf8889b4f47bb115e4ebc9fb19
+guid: d4fc756ed35074927b971aef9a3b5780
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5477770370172515638
-    second: stove-background_0
+      213: 1535134168725310428
+    second: Untitled_Artwork 8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stove-background_0
+      name: Untitled_Artwork 8_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 635fa431123f40c40800000000000000
-      internalID: 5477770370172515638
+      spriteID: cdbcf699464ed4510800000000000000
+      internalID: 1535134168725310428
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stove-background_0: 5477770370172515638
+      Untitled_Artwork 8_0: 1535134168725310428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
