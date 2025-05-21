@@ -14,6 +14,12 @@ public class DialManager : MonoBehaviour
     {
         foreach (var dial in dials)
         {
+                 string key = dial.gameObject.name + "_DialAngle";
+        if (PlayerPrefs.HasKey(key))
+        {
+            float savedAngle = PlayerPrefs.GetFloat(key);
+            dial.SetDialAngle(savedAngle);
+        }
             dial.OnDialRotated += OnAnyDialRotated;
         }
 

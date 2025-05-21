@@ -63,6 +63,10 @@ public class DialController : MonoBehaviour, IPointerDownHandler, IDragHandler
     public void SetDialAngle(float angle)
     {
         rectTransform.rotation = Quaternion.Euler(0, 0, angle);
+
+        //save dial angle?
+            PlayerPrefs.SetFloat(gameObject.name + "_DialAngle", angle);
+
     }
 
     // Get the current angle of the dial
