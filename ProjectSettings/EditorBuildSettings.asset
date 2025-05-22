@@ -21,8 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainKitchen.unity
     guid: ff1993a10b243491ba31d54db1fb949c
   - enabled: 1
+    path: Assets/Scenes/Pot.unity
+    guid: ab9818746862e4502b7db34cef4edc8e
+  - enabled: 1
     path: Assets/Scenes/OpenDrawer.unity
     guid: 7d2e327ed7cb5499d951bbfca2c4e9ca
+  - enabled: 1
+    path: Assets/Scenes/Teacup.unity
+    guid: 1ac615d5265734667a9c8858e0bfa190
   - enabled: 1
     path: Assets/Scenes/StovetopScene.unity
     guid: f26908a21295948b6a36d425188217cf
