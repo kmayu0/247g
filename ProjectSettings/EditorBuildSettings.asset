@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ZoomedPurpleClock.unity
     guid: 247bdc8277ef7451fa051b90375a3730
+  - enabled: 1
+    path: Assets/Scenes/cupboardScene.unity
+    guid: 23cb385f6f80348ff91355843d6e8fbe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
