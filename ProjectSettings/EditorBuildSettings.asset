@@ -42,6 +42,11 @@ EditorBuildSettings:
     path: Assets/Scenes/cupboardScene.unity
     guid: 23cb385f6f80348ff91355843d6e8fbe
   - enabled: 1
+    path: Assets/Scenes/ScaleScene.unity
+    guid: d957ab886a65f4b5781cf64f0a44d000
+  - enabled: 1
+    path: Assets/Scenes/doorScene.unity
+    guid: a007c52bef79c4ae897ecff6a72f177a
     path: Assets/Scenes/doorScene.unity
     guid: a007c52bef79c4ae897ecff6a72f177a
   - enabled: 1
