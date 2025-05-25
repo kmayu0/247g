@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c35d42bf60dde4ef4ac6325a45b29cba
+guid: 27e9861a84e96419da82b64eb241c4d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1545086825149819135
-    second: door-scene-background_0
+      213: 1110286566811175400
+    second: door-background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: door-scene-background_0
+      name: door-background_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1071fcff7bfbe8ae0800000000000000
-      internalID: -1545086825149819135
+      spriteID: 8e90badffb7886f00800000000000000
+      internalID: 1110286566811175400
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      door-scene-background_0: -1545086825149819135
+      door-background_0: 1110286566811175400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
