@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 90995b18cf7e644dda91496fa02394b6
+guid: 8dfbe210e6f9b43d2b6a9f4569e880af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2329098032023012898
-    second: zoomed stopwatch_0
+      213: 6109364804194911179
+    second: apron-pocket-folds_0
+  - first:
+      213: -6951933217588883817
+    second: apron-pocket-folds_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zoomed stopwatch_0
+      name: apron-pocket-folds_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 98
-        width: 623
-        height: 566
+        x: 911
+        y: 457
+        width: 129
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed9f4321ea16dafd0800000000000000
-      internalID: -2329098032023012898
+      spriteID: bc3cf4dabe2d8c450800000000000000
+      internalID: 6109364804194911179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apron-pocket-folds_1
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 405
+        width: 140
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e406f4295c58f90800000000000000
+      internalID: -6951933217588883817
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      zoomed stopwatch_0: -2329098032023012898
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

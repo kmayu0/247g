@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f0e6c0c420348465ea19a25e54523120
+guid: bfd24de130211430e9d47a04651808e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4939811172261561257
-    second: sad-mochi_0
+      213: 1690982752305354720
+    second: apron-pocket_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sad-mochi_0
+      name: apron-pocket_0
       rect:
         serializedVersion: 2
-        x: 430
-        y: 316
-        width: 900
-        height: 1718
+        x: 784
+        y: 382
+        width: 347
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75cf7db39e3427bb0800000000000000
-      internalID: -4939811172261561257
+      spriteID: 0e71970aad3977710800000000000000
+      internalID: 1690982752305354720
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      sad-mochi_0: -4939811172261561257
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
