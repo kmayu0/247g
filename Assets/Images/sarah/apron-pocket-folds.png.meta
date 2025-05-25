@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      apron-pocket-folds_0: 6109364804194911179
+      apron-pocket-folds_1: -6951933217588883817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
