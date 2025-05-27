@@ -9,7 +9,7 @@ public class startgame : MonoBehaviour
     public string sceneToLoad = "intro";
     public float delayBeforeLoad = 0.3f;
 
-    public DialManager dialManager; // Assign this in the Inspector
+    public DialManager dialManager; 
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class startgame : MonoBehaviour
     yield return new WaitForSeconds(delayBeforeLoad);
 
   
-string[] dialNames = { "Dial1", "Dial2", "Dial3", "Dial4" }; // or whatever the GameObject names are
+string[] dialNames = { "Dial1", "Dial2", "Dial3", "Dial4" }; 
 foreach (string dialName in dialNames)
 {
     PlayerPrefs.DeleteKey(dialName + "_DialAngle");
