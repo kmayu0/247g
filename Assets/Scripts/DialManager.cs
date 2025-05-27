@@ -6,7 +6,7 @@ public class DialManager : MonoBehaviour
     public DialController[] dials;
     public float[] targetAngles = new float[] { 45f, 90f, 315f, 180f };
 
-    public GameObject solvedPopup; // assign in Inspector
+    public GameObject solvedPopup; 
 
     private bool puzzleSolved = false;
 

@@ -1,11 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic; // Also needed for List<>
+
+[System.Serializable]
+public class ItemUIPrefab
+{
+    public string itemName;
+    public GameObject prefab;
+}
 
 public class InventoryUI : MonoBehaviour
 {
     public GameObject inventoryPanel;
-    public GameObject itemTextPrefab; // Text prefab for displaying items
-    public Transform itemListParent; // Where the items appear in the UI
+    public Transform itemListParent;
+    public List<ItemUIPrefab> itemPrefabs;
 
     private void Start()
     {
@@ -30,8 +38,25 @@ public class InventoryUI : MonoBehaviour
 
         foreach (string item in InventoryManager.Instance.GetItems())
         {
-            GameObject itemText = Instantiate(itemTextPrefab, itemListParent);
-            itemText.GetComponent<Text>().text = item;
+            GameObject prefab = GetPrefabForItem(item);
+            if (prefab != null)
+            {
+                Instantiate(prefab, itemListParent);
+            }
+            else
+            {
+                Debug.LogWarning("No prefab found for item: " + item);
+            }
         }
+    }
+
+    GameObject GetPrefabForItem(string itemName)
+    {
+        foreach (var entry in itemPrefabs)
+        {
+            if (entry.itemName == itemName)
+                return entry.prefab;
+        }
+        return null;
     }
 }
