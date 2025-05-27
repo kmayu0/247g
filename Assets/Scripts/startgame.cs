@@ -17,16 +17,22 @@ public class startgame : MonoBehaviour
     }
 
     private System.Collections.IEnumerator PlayAndLoad()
-    {
-        if (clickSound != null)
-            audioSource.PlayOneShot(clickSound);
+{
+    if (clickSound != null)
+        audioSource.PlayOneShot(clickSound);
 
-        yield return new WaitForSeconds(delayBeforeLoad);
+    yield return new WaitForSeconds(delayBeforeLoad);
 
-        // Reset dial memory
-        if (dialManager != null)
-            dialManager.ResetDialMemory();
+  
+string[] dialNames = { "Dial1", "Dial2", "Dial3", "Dial4" }; // or whatever the GameObject names are
+foreach (string dialName in dialNames)
+{
+    PlayerPrefs.DeleteKey(dialName + "_DialAngle");
+}
+PlayerPrefs.Save();
 
-        SceneManager.LoadScene(sceneToLoad);
-    }
+
+    SceneManager.LoadScene(sceneToLoad);
+}
+
 }

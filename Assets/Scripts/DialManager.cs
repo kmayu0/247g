@@ -65,15 +65,6 @@ public class DialManager : MonoBehaviour
             yield return null;
         }
     }
-    public void ResetDialMemory()
-{
-    foreach (var dial in dials)
-    {
-        string key = dial.gameObject.name + "_DialAngle";
-        PlayerPrefs.DeleteKey(key);
-        
-    }
-    PlayerPrefs.Save();
-}
+   
 
 }
