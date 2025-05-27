@@ -59,6 +59,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/apronScene.unity
     guid: aae17e6b37cf647d7a1f318ecc459e0d
+  - enabled: 1
+    path: Assets/Scenes/saucerScene.unity
+    guid: 39372fe4d4ed4473494e2569f56dc9ef
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

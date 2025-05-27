@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 906fcc60072aa449e8643b7fba70bf64
+guid: 98589bcea0d884d609cfe9977d9ff737
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4694687813012217006
-    second: whiskers_0
+      213: -5383974956813434215
+    second: saucer-transparent_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: whiskers_0
+      name: saucer-transparent_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1620
-        height: 2160
+        x: 71
+        y: 88
+        width: 874
+        height: 566
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2532d0ebe4e19deb0800000000000000
-      internalID: -4694687813012217006
+      spriteID: 99249836d474845b0800000000000000
+      internalID: -5383974956813434215
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      whiskers_0: -4694687813012217006
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
