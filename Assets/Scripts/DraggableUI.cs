@@ -7,6 +7,7 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     private Canvas canvas;
     private CanvasGroup canvasGroup;
     private Vector2 originalPosition;
+    public PuzzleManager puzzleManager;
 
     public RectTransform targetTransform;
     public float snapThreshold = 50f; // In pixels
@@ -40,6 +41,10 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         {
             rectTransform.anchoredPosition = targetTransform.anchoredPosition;
             this.enabled = false; // Lock it in place
+            if (puzzleManager != null)
+            {
+                puzzleManager.CheckCompletion();
+            }
         }
     }
 }
