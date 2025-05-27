@@ -2,12 +2,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ButtonWithSoundAndDelay : MonoBehaviour
+public class startgame : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip clickSound;
     public string sceneToLoad = "intro";
-    public float delayBeforeLoad = 0.3f; // sound length
+    public float delayBeforeLoad = 0.3f;
+
+    public DialManager dialManager; // Assign this in the Inspector
 
     void Start()
     {
@@ -21,7 +23,10 @@ public class ButtonWithSoundAndDelay : MonoBehaviour
 
         yield return new WaitForSeconds(delayBeforeLoad);
 
+        // Reset dial memory
+        if (dialManager != null)
+            dialManager.ResetDialMemory();
+
         SceneManager.LoadScene(sceneToLoad);
     }
 }
-
