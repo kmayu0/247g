@@ -2885,6 +2885,14 @@ MonoBehaviour:
     prefab: {fileID: 23010872313808406, guid: a48f1d3538f49417f9e56680e060c7e1, type: 3}
   - itemName: Piece2
     prefab: {fileID: 7946500868296198715, guid: 8bc8cc24c03044653a203529e7e0dc14, type: 3}
+  - itemName: Piece3
+    prefab: {fileID: 7946500868296198715, guid: 160ba88a291fc427e9472e8e454e2d26, type: 3}
+  - itemName: Piece4
+    prefab: {fileID: 7946500868296198715, guid: b647b0880c844492981303818a5e8918, type: 3}
+  - itemName: Piece5
+    prefab: {fileID: 7946500868296198715, guid: ac156df87b8b147bca0c28a05d4bd23c, type: 3}
+  - itemName: Piece6
+    prefab: {fileID: 7946500868296198715, guid: 1a3cff55a1c054f6ca28fcf3737e4ca0, type: 3}
 --- !u!1 &2088526731
 GameObject:
   m_ObjectHideFlags: 0
