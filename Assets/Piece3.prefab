@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2024451372826294025}
   - component: {fileID: 9073427723684820709}
   - component: {fileID: 6048996957628603239}
+  - component: {fileID: -3675552713194990325}
+  - component: {fileID: 16724227816212396}
   m_Layer: 5
   m_Name: Piece3
   m_TagString: Untagged
@@ -75,3 +77,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &-3675552713194990325
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946500868296198715}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &16724227816212396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7946500868296198715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960b82485852c4cfca406b107e0db9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
