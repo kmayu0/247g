@@ -20,11 +20,15 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(string item)
+ public void AddItem(string item)
+{
+    if (!items.Contains(item))
     {
         items.Add(item);
         Debug.Log("Added item: " + item);
     }
+}
+
 
     public List<string> GetItems()
     {
