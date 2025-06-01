@@ -11,9 +11,9 @@ public class Apple : MonoBehaviour
 
     void FixedUpdate()
     {
-        tr.position -= new Vector3(0f, 0.3f, 0f);
+        tr.position -= new Vector3(0f, 0.12f, 0f);
 
-        if (tr.position.y < -200f)
+        if (tr.position.y < -9f)
         {
             Destroy(gameObject);
         }
