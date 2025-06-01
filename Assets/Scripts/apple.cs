@@ -3,9 +3,12 @@ using UnityEngine;
 public class Apple : MonoBehaviour
 {
     private Transform tr;
+    private Main main;
 
     void Start()
     {
+                main = GameObject.Find("spawn").GetComponent<Main>();  
+
         tr = GetComponent<Transform>();
     }
 
@@ -23,6 +26,7 @@ public class Apple : MonoBehaviour
     {
         if (collision.gameObject.name == "basket")
         {
+            main.ScoreAdd();
             Destroy(gameObject);
         }
     }
