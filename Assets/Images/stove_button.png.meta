@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f39fd75432e464b13ad428c43783e620
+guid: 7944d62e02aac4973aad15089dea42ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6940766033450978947
-    second: stoveButton_0
+      213: -4942365587084348072
+    second: PNG_image 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stoveButton_0
+      name: PNG_image 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1644
-        height: 304
+        x: 633
+        y: 386
+        width: 417
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38e41f40fed825060800000000000000
-      internalID: 6940766033450978947
+      spriteID: 855f8bf2fa0396bb0800000000000000
+      internalID: -4942365587084348072
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stoveButton_0: 6940766033450978947
+      PNG_image 2_0: -4942365587084348072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
