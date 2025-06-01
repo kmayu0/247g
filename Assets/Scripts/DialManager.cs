@@ -7,6 +7,7 @@ public class DialManager : MonoBehaviour
     public float[] targetAngles = new float[] { 45f, 90f, 315f, 180f };
 
     public GameObject solvedPopup; 
+    public GameObject windowImage; // Optional, can be null
 
     private bool puzzleSolved = false;
 
@@ -48,23 +49,9 @@ public class DialManager : MonoBehaviour
         {
             puzzleSolved = true;
             Debug.Log("✅ Puzzle solved!");
-            if (solvedPopup != null)
-                StartCoroutine(ShowPopup());
+            solvedPopup.SetActive(true) ;
+            if (windowImage != null)
+                windowImage.SetActive(false); // hide the window image
         }
     }
-
-    IEnumerator ShowPopup()
-    {
-        solvedPopup.SetActive(true);
-        solvedPopup.transform.localScale = Vector3.zero;
-        float t = 0f;
-        while (t < 1f)
-        {
-            t += Time.deltaTime * 4f;
-            solvedPopup.transform.localScale = Vector3.Lerp(Vector3.zero, Vector3.one, t);
-            yield return null;
-        }
-    }
-   
-
 }
