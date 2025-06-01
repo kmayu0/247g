@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &202504659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &236527107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -249,6 +249,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1065050372}
   snapThreshold: 50
+  pieceIndex: 0
 --- !u!114 &236527109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,10 +395,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1542200273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.74799, y: -452.5}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440273607
 MonoBehaviour:
@@ -472,7 +473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 668, y: 0}
+  m_AnchoredPosition: {x: 713, y: 488}
   m_SizeDelta: {x: 88.0387, y: 103.6772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444954674
@@ -551,7 +552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3399365946003298430, guid: fd5fcddee59e44fe2828a4c183412dd9, type: 3}
+  m_Sprite: {fileID: 5839820706974066888, guid: 1ef38159f1f134a60aa7eaa50ab7bf85, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -753,10 +754,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1542200273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.74799, y: -802.5}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680984783
 MonoBehaviour:
@@ -903,10 +904,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1542200273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.74799, y: -627.5}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726381414
 MonoBehaviour:
@@ -964,7 +965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &752466473
 RectTransform:
   m_ObjectHideFlags: 0
@@ -999,6 +1000,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1415822288}
   snapThreshold: 50
+  pieceIndex: 0
 --- !u!114 &752466475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1069,10 +1071,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1542200273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.74799, y: -102.5}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &759848336
 MonoBehaviour:
@@ -1144,10 +1146,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1542200273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.74799, y: -977.5}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781265002
 MonoBehaviour:
@@ -1198,6 +1200,7 @@ GameObject:
   - component: {fileID: 810533207}
   - component: {fileID: 810533206}
   - component: {fileID: 810533205}
+  - component: {fileID: 810533208}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1279,6 +1282,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &810533208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810533204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &828692963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,6 +1445,7 @@ MonoBehaviour:
     prefab: {fileID: 7946500868296198715, guid: ac156df87b8b147bca0c28a05d4bd23c, type: 3}
   - itemName: Piece6
     prefab: {fileID: 7946500868296198715, guid: 1a3cff55a1c054f6ca28fcf3737e4ca0, type: 3}
+  puzzleManager: {fileID: 851839852}
 --- !u!224 &829315660
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1465,13 +1513,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28be59dd3f0aa4195ad515607c0468e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzlePieces:
+  puzzlePiecesUI:
   - {fileID: 752466474}
   - {fileID: 236527108}
   - {fileID: 1128310476}
   - {fileID: 980532649}
   - {fileID: 1532966834}
   - {fileID: 1773442058}
+  hiddenPuzzlePieces:
+  - {fileID: 752466472}
+  - {fileID: 236527106}
+  - {fileID: 1128310472}
+  - {fileID: 980532645}
+  - {fileID: 1532966830}
+  - {fileID: 1773442054}
   successMessage: {fileID: 628438958}
 --- !u!1 &980532645
 GameObject:
@@ -1491,7 +1546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &980532646
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1564,6 +1619,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 690789925}
   snapThreshold: 50
+  pieceIndex: 0
 --- !u!1 &1028371330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,10 +1652,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1542200273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.74799, y: -277.5}
-  m_SizeDelta: {x: 170, y: 170}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028371332
 MonoBehaviour:
@@ -1732,7 +1788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1128310473
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1805,6 +1861,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1344760819}
   snapThreshold: 50
+  pieceIndex: 0
 --- !u!1 &1249975959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,7 +2387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1532966831
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2403,6 +2460,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1908622862}
   snapThreshold: 50
+  pieceIndex: 0
 --- !u!1 &1542200272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,7 +2585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1773442055
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2600,6 +2658,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 828692964}
   snapThreshold: 50
+  pieceIndex: 0
 --- !u!1 &1894974067
 GameObject:
   m_ObjectHideFlags: 0
