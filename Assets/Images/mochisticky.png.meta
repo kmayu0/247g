@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mochisticky_0: 8715151855157061232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

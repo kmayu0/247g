@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: af891bc2d0c3745bfaa92f565549d319
+guid: 0a2aa1fd243484aa28085348eb1d9ee5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5191893598599305708
-    second: Cup_With_3_0
+      213: 1943621599020314056
+    second: Cup_With_3 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cup_With_3_0
+      name: Cup_With_3 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4162dd7a740b2f7b0800000000000000
-      internalID: -5191893598599305708
+      spriteID: 8cde16beb8129fa10800000000000000
+      internalID: 1943621599020314056
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cup_With_3_0: -5191893598599305708
+      Cup_With_3 1_0: 1943621599020314056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
