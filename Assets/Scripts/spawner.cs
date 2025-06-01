@@ -4,8 +4,8 @@ public class Spawner : MonoBehaviour
 {
     public GameObject apple;
     public GameObject knife;
-    public float spawnInterval = 1f;
-    public float xRange = 8f;
+    public float spawnInterval = 0.5f;
+    public float xRange = 4f;
 
     void Start()
     {

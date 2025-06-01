@@ -14,12 +14,12 @@ public class basket : MonoBehaviour
     {
         if (Keyboard.current.rightArrowKey.isPressed)
         {
-            if (tr.position.x < 100f) tr.position += new Vector3(0.5f, 0f, 0f);
+            if (tr.position.x < 5f) tr.position += new Vector3(0.2f, 0f, 0f);
         }
 
         if (Keyboard.current.leftArrowKey.isPressed)
         {
-            if (tr.position.x > -100f) tr.position += new Vector3(-0.5f, 0f, 0f);
+            if (tr.position.x > -5f) tr.position += new Vector3(-0.2f, 0f, 0f);
         }
     }
 }

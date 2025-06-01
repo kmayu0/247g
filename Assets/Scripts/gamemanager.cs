@@ -6,40 +6,45 @@ using UnityEngine.SceneManagement;
 
 public class Main : MonoBehaviour
 {
-    // public int score;
+    public int score;
     public bool gameOver;
-    // public GameObject title;
-    // public Text scoreboard;
+    public bool win;
+    public GameObject title;
+public TMPro.TextMeshProUGUI scoreboard;
 
     void Start()
     {
-        // score = 0;
-        // title.SetActive(false);
+        score = 0;
+        title.SetActive(false);
         gameOver = false;
-        // scoreboard.text = "0";
+        win = false;
+        scoreboard.text = "0";
     }
 
     void Update()
     {
         if (gameOver)
-{
-    // title.SetActive(true);  // Activate the title (game over screen)
-    gameOver = false;
-}
-else
-{
-    // title.SetActive(false); // Deactivate the title (hide the game over screen)
+        {
+            title.SetActive(true);  // Activate the title (game over screen)
+            // gameOver = false;
+        }
+        else
+        {
+            title.SetActive(false); // Deactivate the title (hide the game over screen)
+            if (score == 30) {
+                win = true;
+            }
 }
     }
 
-    // public void ScoreAdd()
-    // {
-    //     score++;
-    //     scoreboard.text = score.ToString();
-    // }
+    public void ScoreAdd()
+    {
+        score++;
+        scoreboard.text = score.ToString();
+    }
 
     public void NewGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("maybenewgame");
     }
 }
