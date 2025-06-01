@@ -1,0 +1,33 @@
+using UnityEngine;
+
+public class Knife : MonoBehaviour
+{
+    private Main main; 
+    private Transform tr;
+
+    void Start()
+    {
+        main = GameObject.Find("spawn").GetComponent<Main>();  // Corrected to 'Main' (capitalized)
+        tr = GetComponent<Transform>();
+    }
+
+    void FixedUpdate()
+    {
+        tr.position -= new Vector3(0f, 0.3f, 0f);
+
+        if (tr.position.y < -200f)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "basket")
+        {
+            Destroy(gameObject);
+            Destroy(collision.gameObject);
+            main.gameOver = true;
+        }
+    }
+}

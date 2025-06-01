@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 747dc1bdf72e84c3781ac6b197da854b
+guid: 54a501fd8a07941f684c51cc094c916c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1537593579084937596
-    second: blue-apron-pocket_0
+      213: -3706090569851241636
+    second: knife png_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blue-apron-pocket_0
+      name: knife png_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 349
-        height: 187
+        x: 101
+        y: 41
+        width: 348
+        height: 326
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c797742b631a65510800000000000000
-      internalID: 1537593579084937596
+      spriteID: c5b779e2342519cc0800000000000000
+      internalID: -3706090569851241636
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      blue-apron-pocket_0: 1537593579084937596
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
