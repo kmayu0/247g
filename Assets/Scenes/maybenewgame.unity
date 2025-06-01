@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 334346874}
   - component: {fileID: 334346873}
   - component: {fileID: 334346872}
+  - component: {fileID: 334346875}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -442,7 +443,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 334346873}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 334346875}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &334346873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,6 +494,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334346870}
   m_CullTransparentMesh: 1
+--- !u!114 &334346875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334346870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be099e076b2f64a5f927c411224f5b15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: maybenewgame
 --- !u!1 &554113972
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +713,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5435936245034971430, guid: c7da54e62abb449a7a374cdce72984a5, type: 3}
+  m_Sprite: {fileID: 2735308880000261733, guid: 75925cc0f81b6431cbe5a4ac2371017e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
