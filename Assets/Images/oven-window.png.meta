@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oven-window_0: 5773272789497754666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1432,6 +1432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryPanel: {fileID: 202504658}
   itemListParent: {fileID: 1542200273}
+  inventoryToggleButton: {fileID: 1374354778}
   itemPrefabs:
   - itemName: Piece1
     prefab: {fileID: 23010872313808406, guid: a48f1d3538f49417f9e56680e060c7e1, type: 3}
@@ -2768,9 +2769,9 @@ RectTransform:
   - {fileID: 1773442055}
   - {fileID: 851839851}
   - {fileID: 628438959}
-  - {fileID: 202504661}
   - {fileID: 829315660}
   - {fileID: 1374354782}
+  - {fileID: 202504661}
   - {fileID: 1249975960}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

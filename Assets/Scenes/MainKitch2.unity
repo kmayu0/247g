@@ -2977,6 +2977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryPanel: {fileID: 4149069358311954786}
   itemListParent: {fileID: 8627494050973063422}
+  inventoryToggleButton: {fileID: 80881518536336414}
   itemPrefabs:
   - itemName: Piece1
     prefab: {fileID: 23010872313808406, guid: a48f1d3538f49417f9e56680e060c7e1, type: 3}
