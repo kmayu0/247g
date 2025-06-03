@@ -719,7 +719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   codeInputField: {fileID: 498229522}
   doorButton: {fileID: 637686081}
-  correctCode: 1234
+  correctCode: 4302
 --- !u!1 &637686081
 GameObject:
   m_ObjectHideFlags: 0
