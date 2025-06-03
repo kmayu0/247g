@@ -78,6 +78,12 @@ EditorBuildSettings:
     path: Assets/Scenes/zoomedCorkboard3.unity
     guid: 7274a17de9b1b4774bbc60e3d8898f4c
   - enabled: 1
+    path: Assets/Scenes/maybenewgame.unity
+    guid: c568e7b20512e4b4e9fc60674ba57d1b
+  - enabled: 1
+    path: Assets/Scenes/newgameStart.unity
+    guid: 39719747d1a1844afbaaff7cc590b8f3
+  - enabled: 1
     path: Assets/Scenes/Onboard/Intro1.unity
     guid: 4d7d9b2c11b29447f84e5648b19cc098
   - enabled: 1

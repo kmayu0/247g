@@ -19,6 +19,11 @@ public TMPro.TextMeshProUGUI scoreboard;
         gameOver = false;
         win = false;
         scoreboard.text = "0";
+        GameObject basket = GameObject.Find("basket");
+    if (basket == null)
+        Debug.LogError("Basket NOT found!");
+    else
+        Debug.Log("Basket found.");
     }
 
     void Update()

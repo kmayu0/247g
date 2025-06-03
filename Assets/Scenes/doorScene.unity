@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 498229524}
   - component: {fileID: 498229523}
   - component: {fileID: 498229522}
+  - component: {fileID: 498229525}
   m_Layer: 5
   m_Name: input
   m_TagString: Untagged
@@ -614,7 +615,19 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 498229525}
+        m_TargetAssemblyTypeName: CodeChecker, Assembly-CSharp
+        m_MethodName: CheckCode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
@@ -692,6 +705,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498229520}
   m_CullTransparentMesh: 1
+--- !u!114 &498229525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498229520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b0d5b394aad4583a6c01e8b86160e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  codeInputField: {fileID: 498229522}
+  doorButton: {fileID: 637686081}
+  correctCode: 1234
 --- !u!1 &637686081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1089,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1619430362}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> main
 --- !u!1 &1428722608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,7 +1346,6 @@ RectTransform:
   - {fileID: 498229521}
   - {fileID: 230800516}
   - {fileID: 637686082}
-  - {fileID: 1217939610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
