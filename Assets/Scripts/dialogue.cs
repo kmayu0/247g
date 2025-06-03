@@ -6,6 +6,7 @@ public class DialogueImageSwitcher : MonoBehaviour
 {
     public Image dialogueImage;
     public Sprite[] dialogueSprites;
+    public GameObject nextButton;
     private int currentIndex = 0;
 
     void Start()
@@ -13,6 +14,10 @@ public class DialogueImageSwitcher : MonoBehaviour
         if (dialogueSprites.Length > 0)
         {
             dialogueImage.sprite = dialogueSprites[0];
+        }
+        if (nextButton != null)
+        {
+            nextButton.SetActive(false);
         }
     }
 
@@ -34,6 +39,14 @@ public class DialogueImageSwitcher : MonoBehaviour
         else
         {
             Debug.Log("End of dialogue.");
+             if (nextButton != null)
+            {
+                nextButton.SetActive(true);
+            }
+
+            // Optionally, disable further clicking
+            this.enabled = false;
+
         }
     }
 }
