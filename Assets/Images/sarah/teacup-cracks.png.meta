@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      teacup-cracks_0: 7200859139567864663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
