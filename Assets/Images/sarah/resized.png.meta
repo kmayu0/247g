@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ca30bf45d2f814c96ae23c6f95a0b5a0
+guid: 57eeff377e75f4595922dfe3c2c38e00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4500192020910897250
-    second: door button_0
+      213: -1187357484043238799
+    second: resized_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: door button_0
+      name: resized_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 363
-        height: 680
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 268f07bccc4e37e30800000000000000
-      internalID: 4500192020910897250
+      spriteID: 172833eb8a8a58fe0800000000000000
+      internalID: -1187357484043238799
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      door button_0: 4500192020910897250
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
