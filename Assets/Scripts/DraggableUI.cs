@@ -7,10 +7,12 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     private Canvas canvas;
     private CanvasGroup canvasGroup;
     private Vector2 originalPosition;
-    public PuzzleManager puzzleManager;
 
+    public PuzzleManager puzzleManager;
     public RectTransform targetTransform;
-    public float snapThreshold = 50f; // In pixels
+    public float snapThreshold = 50f;
+
+    public int pieceIndex; // 👈 Add this to match the hidden puzzle piece
 
     private void Awake()
     {
@@ -24,6 +26,12 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         canvasGroup.blocksRaycasts = false;
         canvasGroup.alpha = 0.6f;
+
+        // 👇 Reveal corresponding hidden puzzle piece on the scene
+        if (puzzleManager != null)
+        {
+            puzzleManager.RevealPiece(pieceIndex);
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
