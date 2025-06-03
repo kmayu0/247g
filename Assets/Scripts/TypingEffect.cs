@@ -8,17 +8,21 @@ public class TypingEffect : MonoBehaviour
     public TextMeshProUGUI tmpText;
     public string fullText = "Typing like a typewriter!";
     public float typingSpeed = 0.05f;
-    public Button nextButton; // 👈 Assign this in the Inspector
+    public Button nextButton; // Optional
 
     void Start()
     {
-        if (tmpText == null || nextButton == null)
+        if (tmpText == null)
         {
-            Debug.LogError("tmpText or nextButton not assigned!");
+            Debug.LogError("tmpText is not assigned!");
             return;
         }
 
-        nextButton.gameObject.SetActive(false); // 👈 hide at start
+        if (nextButton != null)
+        {
+            nextButton.gameObject.SetActive(false); // hide at start
+        }
+
         StartCoroutine(TypeText());
     }
 
@@ -31,6 +35,9 @@ public class TypingEffect : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        nextButton.gameObject.SetActive(true); // 👈 show when done
+        if (nextButton != null)
+        {
+            nextButton.gameObject.SetActive(true); // show when done
+        }
     }
 }
