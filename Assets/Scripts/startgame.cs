@@ -6,7 +6,7 @@ public class startgame : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip clickSound;
-    public string sceneToLoad = "intro";
+    public string sceneToLoad = "Intro1";
     public float delayBeforeLoad = 0.3f;
 
     public DialManager dialManager; 
