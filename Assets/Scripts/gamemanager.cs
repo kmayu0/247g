@@ -11,19 +11,18 @@ public class Main : MonoBehaviour
     public bool win;
     public GameObject title;
 public TMPro.TextMeshProUGUI scoreboard;
+public GameObject winpanel;
 
     void Start()
     {
         score = 0;
         title.SetActive(false);
+                        winpanel.SetActive(false);
+
         gameOver = false;
         win = false;
         scoreboard.text = "0";
-        GameObject basket = GameObject.Find("basket");
-    if (basket == null)
-        Debug.LogError("Basket NOT found!");
-    else
-        Debug.Log("Basket found.");
+
     }
 
     void Update()
@@ -37,6 +36,8 @@ public TMPro.TextMeshProUGUI scoreboard;
         {
             title.SetActive(false); // Deactivate the title (hide the game over screen)
             if (score == 30) {
+                        SceneManager.LoadScene("endscene");
+                // winpanel.SetActive(true);
                 win = true;
             }
 }
