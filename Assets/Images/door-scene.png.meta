@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 29aed45b1d75548978ddb0fa93060d46
+guid: f813c54762b1c4e12bce3721bcccfacd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8318054845019676472
-    second: Apron Button_0
+      213: -1254263290289727509
+    second: door-scene_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apron Button_0
+      name: door-scene_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 22
-        width: 96
-        height: 74
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83f5d938fcaaf6370800000000000000
-      internalID: 8318054845019676472
+      spriteID: be7d77fce26f79ee0800000000000000
+      internalID: -1254263290289727509
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Apron Button_0: 8318054845019676472
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
