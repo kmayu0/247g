@@ -7,9 +7,10 @@ public class startgame : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip clickSound;
     public string sceneToLoad = "Intro1";
-    public float delayBeforeLoad = 0.3f;
+    public float delayBeforeLoad = 5f;
 
-    public DialManager dialManager; 
+    // Optional DialManager - can be null
+    public DialManager dialManager;
 
     void Start()
     {
@@ -17,22 +18,31 @@ public class startgame : MonoBehaviour
     }
 
     private System.Collections.IEnumerator PlayAndLoad()
-{
-    if (clickSound != null)
-        audioSource.PlayOneShot(clickSound);
+    {
+        if (clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+            // Wait for the clip length instead of fixed delay
+            yield return new WaitForSeconds(clickSound.length);
+        }
+        else
+        {
+            // If no clip, fallback to fixed delay
+            yield return new WaitForSeconds(delayBeforeLoad);
+        }
 
-    yield return new WaitForSeconds(delayBeforeLoad);
+        if (dialManager != null)
+        {
+            // optional dialManager logic here
+        }
 
-  
-string[] dialNames = { "Dial1", "Dial2", "Dial3", "Dial4" }; 
-foreach (string dialName in dialNames)
-{
-    PlayerPrefs.DeleteKey(dialName + "_DialAngle");
-}
-PlayerPrefs.Save();
+        string[] dialNames = { "Dial1", "Dial2", "Dial3", "Dial4" };
+        foreach (string dialName in dialNames)
+        {
+            PlayerPrefs.DeleteKey(dialName + "_DialAngle");
+        }
+        PlayerPrefs.Save();
 
-
-    SceneManager.LoadScene(sceneToLoad);
-}
-
+        SceneManager.LoadScene(sceneToLoad);
+    }
 }
