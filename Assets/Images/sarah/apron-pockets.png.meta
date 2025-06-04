@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: e3da9b46ecddc4df997b482542ea4570
+guid: 5450167368dc144a2a355a25dd5b9a20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8901711195553229215
-    second: apron_0
+      213: 1666820787041840030
+    second: apron-pockets_0
+  - first:
+      213: 7127117977303350745
+    second: apron-pockets_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: apron_0
+      name: apron-pockets_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 784
+        y: 382
+        width: 347
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1669ee7b4d4c67480800000000000000
-      internalID: -8901711195553229215
+      spriteID: e9badd3bcacb12710800000000000000
+      internalID: 1666820787041840030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apron-pockets_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 349
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd777d0a0c98e260800000000000000
+      internalID: 7127117977303350745
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      apron_0: -8901711195553229215
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
