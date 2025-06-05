@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Images/cupcake.png.meta
 guid: 4eb2db43cbf63499f916954bb33a20af
+========
+guid: 2a808f2ae0d3847e89aaa7942bd6f2f8
+>>>>>>>> main:Assets/Images/Cup_With_3 1.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,8 +138,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< HEAD:Assets/Images/cupcake.png.meta
     nameFileIdTable:
       Adobe Express - file (4)_0: -7840245296287319653
+========
+    nameFileIdTable: {}
+>>>>>>>> main:Assets/Images/Cup_With_3 1.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

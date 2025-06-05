@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Images/sarah/apron-scene.png.meta
 guid: 232bebe20096f4a378f96b04dc46da13
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4431557428225234069
     second: apron-scene_0
+========
+guid: 4eb2db43cbf63499f916954bb33a20af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7840245296287319653
+    second: Adobe Express - file (4)_0
+>>>>>>>> main:Assets/Images/cupcake.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,23 +105,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Images/sarah/apron-scene.png.meta
       name: apron-scene_0
       rect:
         serializedVersion: 2
@@ -120,6 +117,15 @@ TextureImporter:
         y: 0
         width: 1920
         height: 1080
+========
+      name: Adobe Express - file (4)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 428
+        height: 505
+>>>>>>>> main:Assets/Images/cupcake.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Images/sarah/apron-scene.png.meta
       spriteID: 594db17600e008d30800000000000000
       internalID: 4431557428225234069
+========
+      spriteID: b99fdd2417ad13390800000000000000
+      internalID: -7840245296287319653
+>>>>>>>> main:Assets/Images/cupcake.png.meta
       vertices: []
       indices: 
       edges: []
@@ -148,7 +159,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/Images/sarah/apron-scene.png.meta
       apron-scene_0: 4431557428225234069
+========
+      Adobe Express - file (4)_0: -7840245296287319653
+>>>>>>>> main:Assets/Images/cupcake.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
