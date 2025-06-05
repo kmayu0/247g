@@ -515,7 +515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ok cool.
+  m_text: Ok, easy!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b215f608fe9c44cc7bb97045557da7f7, type: 2}
   m_sharedMaterial: {fileID: 8282683351623680751, guid: b215f608fe9c44cc7bb97045557da7f7, type: 2}
@@ -1304,9 +1304,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tmpText: {fileID: 629039286}
-  fullText: Ok cool.
+  fullText: Ok, easy!
   typingSpeed: 0.05
-  nextButton: {fileID: 1686520699}
+  nextButtons:
+  - {fileID: 1686520697}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

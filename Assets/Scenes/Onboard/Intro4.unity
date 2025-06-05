@@ -853,7 +853,8 @@ MonoBehaviour:
   tmpText: {fileID: 227551485}
   fullText: Let's see...
   typingSpeed: 0.05
-  nextButton: {fileID: 53730361}
+  nextButtons:
+  - {fileID: 53730359}
 --- !u!1 &1218469272
 GameObject:
   m_ObjectHideFlags: 0
