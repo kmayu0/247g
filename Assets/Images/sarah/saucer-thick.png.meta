@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      saucer-thick_0: -708343828558364431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
