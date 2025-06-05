@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 860ca13f19c83492ba538ea50bf47886
+guid: 0cf892907c8584b6e910ffac2c47e5ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6659152442244558058
-    second: flowerzoomed_0
+      213: -1287673880273119847
+    second: ChatGPT Image Jun 5, 2025, 08_53_22 AM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flowerzoomed_0
+      name: ChatGPT Image Jun 5, 2025, 08_53_22 AM_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 43
+        y: 57
+        width: 951
+        height: 837
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61396dea220f593a0800000000000000
-      internalID: -6659152442244558058
+      spriteID: 99595c3ad63412ee0800000000000000
+      internalID: -1287673880273119847
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flowerzoomed_0: -6659152442244558058
+      ChatGPT Image Jun 5, 2025, 08_53_22 AM_0: -1287673880273119847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
