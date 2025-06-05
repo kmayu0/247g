@@ -9,8 +9,7 @@ public class startgame : MonoBehaviour
     public string sceneToLoad = "Intro1";
     public float delayBeforeLoad = 5f;
 
-    // List of puzzle piece IDs to clear
-    public string[] puzzlePieceIDs = { }; // ✅ You can update these in Inspector
+    public string[] puzzlePieceIDs = { }; 
 
     void Start()
     {
