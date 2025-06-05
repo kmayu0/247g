@@ -30,12 +30,12 @@ public TMPro.TextMeshProUGUI scoreboard;
     {
         if (gameOver)
         {
-            title.SetActive(true);  // Activate the title (game over screen)
+            title.SetActive(true);  
             // gameOver = false;
         }
         else
         {
-            title.SetActive(false); // Deactivate the title (hide the game over screen)
+            title.SetActive(false); 
             if (score == 30) {
                 win = true;
             }
