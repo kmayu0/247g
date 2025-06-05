@@ -6,10 +6,23 @@ public class InventoryPieceButton : MonoBehaviour
     public int pieceIndex; // index in PuzzleManager.hiddenPuzzlePieces
     public PuzzleManager puzzleManager;
 
+    private Button button;
+    private string prefsKey;
+
     void Start()
     {
-        // Optional: if this script is on a Button component, add the listener automatically
-        GetComponent<Button>().onClick.AddListener(OnPieceClicked);
+        button = GetComponent<Button>();
+        prefsKey = "ButtonClicked_" + pieceIndex;
+
+        // Hide button if it was clicked before (persisted)
+        if (PlayerPrefs.GetInt(prefsKey, 0) == 1)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            button.onClick.AddListener(OnPieceClicked);
+        }
     }
 
     public void OnPieceClicked()
@@ -22,5 +35,10 @@ public class InventoryPieceButton : MonoBehaviour
         {
             Debug.LogWarning("PuzzleManager not assigned!");
         }
+
+        // Hide this button and save the clicked state
+        gameObject.SetActive(false);
+        PlayerPrefs.SetInt(prefsKey, 1);
+        PlayerPrefs.Save();
     }
 }

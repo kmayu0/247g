@@ -12,7 +12,9 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public RectTransform targetTransform;
     public float snapThreshold = 50f;
 
-    public int pieceIndex; // 👈 Add this to match the hidden puzzle piece
+    public int pieceIndex;
+
+    public string pieceID; // ✅ NEW
 
     private void Awake()
     {
@@ -20,6 +22,7 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         canvas = GetComponentInParent<Canvas>();
         canvasGroup = gameObject.AddComponent<CanvasGroup>();
         originalPosition = rectTransform.anchoredPosition;
+        LoadPosition();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -27,7 +30,6 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         canvasGroup.blocksRaycasts = false;
         canvasGroup.alpha = 0.6f;
 
-        // 👇 Reveal corresponding hidden puzzle piece on the scene
         if (puzzleManager != null)
         {
             puzzleManager.RevealPiece(pieceIndex);
@@ -48,11 +50,44 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         if (distance < snapThreshold)
         {
             rectTransform.anchoredPosition = targetTransform.anchoredPosition;
-            this.enabled = false; // Lock it in place
+            SavePosition(); // ✅ NEW
+            this.enabled = false;
             if (puzzleManager != null)
             {
                 puzzleManager.CheckCompletion();
             }
+        }
+        else
+        {
+            SavePosition(); // ✅ NEW (save even if not snapped, so user drag persists)
+        }
+    }
+
+    public void SavePosition() // ✅ NEW
+    {
+        PlayerPrefs.SetFloat(pieceID + "_x", rectTransform.anchoredPosition.x);
+        PlayerPrefs.SetFloat(pieceID + "_y", rectTransform.anchoredPosition.y);
+        PlayerPrefs.Save();
+    }
+
+    public void LoadPosition()
+    {
+        if (rectTransform == null)
+        {
+            rectTransform = GetComponent<RectTransform>();
+        }
+
+        if (string.IsNullOrEmpty(pieceID))
+        {
+            Debug.LogWarning($"[DraggableUI] pieceID not set on {gameObject.name}");
+            return;
+        }
+
+        if (PlayerPrefs.HasKey(pieceID + "_x") && PlayerPrefs.HasKey(pieceID + "_y"))
+        {
+            float x = PlayerPrefs.GetFloat(pieceID + "_x");
+            float y = PlayerPrefs.GetFloat(pieceID + "_y");
+            rectTransform.anchoredPosition = new Vector2(x, y);
         }
     }
 }

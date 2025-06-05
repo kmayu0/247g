@@ -1078,6 +1078,13 @@ MonoBehaviour:
   sceneToLoad: Intro1
   delayBeforeLoad: 0.3
   dialManager: {fileID: 0}
+  puzzlePieceIDs:
+  - piece-1
+  - piece-2
+  - piece-3
+  - piece-4
+  - piece-5
+  - piece-6
 --- !u!1 &1823338712
 GameObject:
   m_ObjectHideFlags: 0
