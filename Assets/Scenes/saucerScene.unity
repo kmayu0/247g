@@ -249,7 +249,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1065050372}
   snapThreshold: 50
-  pieceIndex: 0
+  pieceIndex: 1
 --- !u!114 &236527109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,7 +1940,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 690789925}
   snapThreshold: 50
-  pieceIndex: 0
+  pieceIndex: 3
 --- !u!1 &1028371330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,7 +2182,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1344760819}
   snapThreshold: 50
-  pieceIndex: 0
+  pieceIndex: 2
 --- !u!1 &1249975959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,7 +2781,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 1908622862}
   snapThreshold: 50
-  pieceIndex: 0
+  pieceIndex: 4
 --- !u!1 &1542200272
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,7 +3054,7 @@ MonoBehaviour:
   puzzleManager: {fileID: 851839852}
   targetTransform: {fileID: 828692964}
   snapThreshold: 50
-  pieceIndex: 0
+  pieceIndex: 5
 --- !u!1 &1882605222
 GameObject:
   m_ObjectHideFlags: 0
