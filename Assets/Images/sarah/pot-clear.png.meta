@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: 1a73c81ffb18e442bb8d086122c585f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6373531351480489125
+    second: pot-clear_0
+  - first:
+      213: 3920707310253901475
+    second: pot-clear_1
+  - first:
+      213: -4459541125498474493
+    second: pot-clear_2
+  - first:
+      213: 4386957379773778729
+    second: pot-clear_3
+  - first:
+      213: 5071555540062895289
+    second: pot-clear_4
+  - first:
+      213: 2037206927908504457
+    second: pot-clear_5
+  - first:
+      213: -7028584153085205075
+    second: pot-clear_6
+  - first:
+      213: 2005252546909530790
+    second: pot-clear_7
+  - first:
+      213: 222625904587851764
+    second: pot-clear_8
+  - first:
+      213: 3694338900834725377
+    second: pot-clear_9
+  - first:
+      213: 1657203216410808137
+    second: pot-clear_10
+  - first:
+      213: 6222101319000044298
+    second: pot-clear_11
+  - first:
+      213: 8901758781742395229
+    second: pot-clear_12
+  - first:
+      213: 7238094295521360854
+    second: pot-clear_13
+  - first:
+      213: 4599278313566241222
+    second: pot-clear_14
+  - first:
+      213: -6112693751089755770
+    second: pot-clear_15
+  - first:
+      213: 6933049142407666314
+    second: pot-clear_16
+  - first:
+      213: -402136993223907510
+    second: pot-clear_17
+  - first:
+      213: -2290769287203424245
+    second: pot-clear_18
+  - first:
+      213: 5057059432692121457
+    second: pot-clear_19
+  - first:
+      213: -1746246045015376449
+    second: pot-clear_20
+  - first:
+      213: -6211287323460704541
+    second: pot-clear_21
+  - first:
+      213: -8445864170699987940
+    second: pot-clear_22
+  - first:
+      213: -1506438630391135770
+    second: pot-clear_23
+  - first:
+      213: -720134001116847461
+    second: pot-clear_24
+  - first:
+      213: 6171131797781931956
+    second: pot-clear_25
+  - first:
+      213: 2522347306435838415
+    second: pot-clear_26
+  - first:
+      213: -1337087075398554031
+    second: pot-clear_27
+  - first:
+      213: -7749445267311102562
+    second: pot-clear_28
+  - first:
+      213: 8019905244773624167
+    second: pot-clear_29
+  - first:
+      213: -7359794253097715774
+    second: pot-clear_30
+  - first:
+      213: 6991482528439756631
+    second: pot-clear_31
+  - first:
+      213: -8757129914088930693
+    second: pot-clear_32
+  - first:
+      213: 4326370862639303640
+    second: pot-clear_33
+  - first:
+      213: 5222608292056235485
+    second: pot-clear_34
+  - first:
+      213: -6990568500914210629
+    second: pot-clear_35
+  - first:
+      213: 4087780627033338808
+    second: pot-clear_36
+  - first:
+      213: 6913932837446211840
+    second: pot-clear_37
+  - first:
+      213: 2149221406156069826
+    second: pot-clear_38
+  - first:
+      213: 826471249005549612
+    second: pot-clear_39
+  - first:
+      213: 1482691536434356805
+    second: pot-clear_40
+  - first:
+      213: -3638735304737168014
+    second: pot-clear_41
+  - first:
+      213: 505357028077241883
+    second: pot-clear_42
+  - first:
+      213: 5472489309525472113
+    second: pot-clear_43
+  - first:
+      213: 2170616435736455372
+    second: pot-clear_44
+  - first:
+      213: 3769293352778141971
+    second: pot-clear_45
+  - first:
+      213: 6714473835774757135
+    second: pot-clear_46
+  - first:
+      213: -4357632242132464624
+    second: pot-clear_47
+  - first:
+      213: -7927118225627657126
+    second: pot-clear_48
+  - first:
+      213: 5641846551664805791
+    second: pot-clear_49
+  - first:
+      213: 8635537250345188625
+    second: pot-clear_50
+  - first:
+      213: 8071400819210993590
+    second: pot-clear_51
+  - first:
+      213: -7533123688844693830
+    second: pot-clear_52
+  - first:
+      213: -8800223730651006465
+    second: pot-clear_53
+  - first:
+      213: -4776934492600981453
+    second: pot-clear_54
+  - first:
+      213: -4676316298266305189
+    second: pot-clear_55
+  - first:
+      213: -5364676944461072236
+    second: pot-clear_56
+  - first:
+      213: 2811392150994755195
+    second: pot-clear_57
+  - first:
+      213: 6034886417963036284
+    second: pot-clear_58
+  - first:
+      213: -5085730140416938741
+    second: pot-clear_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pot-clear_0
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 868
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a45fc9eef4537850800000000000000
+      internalID: 6373531351480489125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_1
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 883
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a606ff9686296630800000000000000
+      internalID: 3920707310253901475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_2
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 885
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300fa6959f68c12c0800000000000000
+      internalID: -4459541125498474493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_3
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 883
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bc13a6e7a91ec30800000000000000
+      internalID: 4386957379773778729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_4
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 844
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcfc18b4e8c16640800000000000000
+      internalID: 5071555540062895289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_5
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 861
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98383f748ec954c10800000000000000
+      internalID: 2037206927908504457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_6
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 865
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5aa69a3f3757e90800000000000000
+      internalID: -7028584153085205075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 825
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa6d7f219614db10800000000000000
+      internalID: 2005252546909530790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 829
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f742c8a41de61300800000000000000
+      internalID: 222625904587851764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 814
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e292828ade44330800000000000000
+      internalID: 3694338900834725377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_10
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 818
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f0dca8b819ff610800000000000000
+      internalID: 1657203216410808137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_11
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 821
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03bc7bfe28595650800000000000000
+      internalID: 6222101319000044298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_12
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 800
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f28fdc276698b70800000000000000
+      internalID: 8901758781742395229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_13
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 804
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbf457a960e27460800000000000000
+      internalID: 7238094295521360854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_14
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 807
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c10647124be3df30800000000000000
+      internalID: 4599278313566241222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_15
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 785
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6898b897b695b2ba0800000000000000
+      internalID: -6112693751089755770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 796
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a198f4673273060800000000000000
+      internalID: 6933049142407666314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_17
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 777
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4768d709825b6af0800000000000000
+      internalID: -402136993223907510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_18
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 782
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b087dd5687d8530e0800000000000000
+      internalID: -2290769287203424245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_19
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 767
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ff6a5b2c84e2640800000000000000
+      internalID: 5057059432692121457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 773
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd7d6c597614c7e0800000000000000
+      internalID: -1746246045015376449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_21
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 756
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6ec3f86131dc9a0800000000000000
+      internalID: -6211287323460704541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_22
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 764
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c146a3ce8434aca80800000000000000
+      internalID: -8445864170699987940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 744
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e14c9f0c0e081be0800000000000000
+      internalID: -1506438630391135770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_24
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 749
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92efb001f19106f0800000000000000
+      internalID: -720134001116847461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_25
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 731
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7e8ec8ca344a550800000000000000
+      internalID: 6171131797781931956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_26
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 735
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc18540e28d210320800000000000000
+      internalID: 2522347306435838415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_27
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 738
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e6a1d9366b17de0800000000000000
+      internalID: -1337087075398554031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_28
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 137
+        width: 551
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95f6937690747490800000000000000
+      internalID: -7749445267311102562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_29
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 673
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769260f245d6c4f60800000000000000
+      internalID: 8019905244773624167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_30
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 681
+        width: 121
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c73624ee12ccd990800000000000000
+      internalID: -7359794253097715774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 670
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7576001315cb60160800000000000000
+      internalID: 6991482528439756631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_32
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 669
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7248ca8dbc687680800000000000000
+      internalID: -8757129914088930693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_33
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 667
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db4732a06b5a0c30800000000000000
+      internalID: 4326370862639303640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 631
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd7501329e6a7840800000000000000
+      internalID: 5222608292056235485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_35
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 634
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb839fc6cf28cfe90800000000000000
+      internalID: -6990568500914210629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_36
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 638
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3bb0282d6bab830800000000000000
+      internalID: 4087780627033338808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 616
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009d3e8b84933ff50800000000000000
+      internalID: 6913932837446211840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 627
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb19995b7193dd10800000000000000
+      internalID: 2149221406156069826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 608
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c289c0ed837387b00800000000000000
+      internalID: 826471249005549612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_40
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 613
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542e5a4c814939410800000000000000
+      internalID: 1482691536434356805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 598
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275e779e48d908dc0800000000000000
+      internalID: -3638735304737168014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_42
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 605
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168a4f1a83630700800000000000000
+      internalID: 505357028077241883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_43
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 581
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1737363580032fb40800000000000000
+      internalID: 5472489309525472113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_44
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 587
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc822bbd5249f1e10800000000000000
+      internalID: 2170616435736455372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_45
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 591
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311159275583f4430800000000000000
+      internalID: 3769293352778141971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_46
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 566
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09420bf06a9e2d50800000000000000
+      internalID: 6714473835774757135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_47
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 575
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cc7e140949683c0800000000000000
+      internalID: -4357632242132464624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 548
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c40f439f73df190800000000000000
+      internalID: -7927118225627657126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_49
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 562
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f974e350c8ddb4e40800000000000000
+      internalID: 5641846551664805791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 529
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d7a7b406797d770800000000000000
+      internalID: 8635537250345188625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 545
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf3edce740630070800000000000000
+      internalID: 8071400819210993590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 203
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abee45dcae7f47790800000000000000
+      internalID: -7533123688844693830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_53
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 21
+        width: 104
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9759e74235fd580800000000000000
+      internalID: -8800223730651006465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_54
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 63
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3382535636be4bdb0800000000000000
+      internalID: -4776934492600981453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_55
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 107
+        width: 73
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d97785a136a1fb0800000000000000
+      internalID: -4676316298266305189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_56
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 280
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4987ba60eb6dc85b0800000000000000
+      internalID: -5364676944461072236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_57
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 315
+        width: 153
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e1d541442140720800000000000000
+      internalID: 2811392150994755195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_58
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 377
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e2482193930c350800000000000000
+      internalID: 6034886417963036284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot-clear_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d63f4f16bdb69b0800000000000000
+      internalID: -5085730140416938741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pot-clear_0: 6373531351480489125
+      pot-clear_1: 3920707310253901475
+      pot-clear_10: 1657203216410808137
+      pot-clear_11: 6222101319000044298
+      pot-clear_12: 8901758781742395229
+      pot-clear_13: 7238094295521360854
+      pot-clear_14: 4599278313566241222
+      pot-clear_15: -6112693751089755770
+      pot-clear_16: 6933049142407666314
+      pot-clear_17: -402136993223907510
+      pot-clear_18: -2290769287203424245
+      pot-clear_19: 5057059432692121457
+      pot-clear_2: -4459541125498474493
+      pot-clear_20: -1746246045015376449
+      pot-clear_21: -6211287323460704541
+      pot-clear_22: -8445864170699987940
+      pot-clear_23: -1506438630391135770
+      pot-clear_24: -720134001116847461
+      pot-clear_25: 6171131797781931956
+      pot-clear_26: 2522347306435838415
+      pot-clear_27: -1337087075398554031
+      pot-clear_28: -7749445267311102562
+      pot-clear_29: 8019905244773624167
+      pot-clear_3: 4386957379773778729
+      pot-clear_30: -7359794253097715774
+      pot-clear_31: 6991482528439756631
+      pot-clear_32: -8757129914088930693
+      pot-clear_33: 4326370862639303640
+      pot-clear_34: 5222608292056235485
+      pot-clear_35: -6990568500914210629
+      pot-clear_36: 4087780627033338808
+      pot-clear_37: 6913932837446211840
+      pot-clear_38: 2149221406156069826
+      pot-clear_39: 826471249005549612
+      pot-clear_4: 5071555540062895289
+      pot-clear_40: 1482691536434356805
+      pot-clear_41: -3638735304737168014
+      pot-clear_42: 505357028077241883
+      pot-clear_43: 5472489309525472113
+      pot-clear_44: 2170616435736455372
+      pot-clear_45: 3769293352778141971
+      pot-clear_46: 6714473835774757135
+      pot-clear_47: -4357632242132464624
+      pot-clear_48: -7927118225627657126
+      pot-clear_49: 5641846551664805791
+      pot-clear_5: 2037206927908504457
+      pot-clear_50: 8635537250345188625
+      pot-clear_51: 8071400819210993590
+      pot-clear_52: -7533123688844693830
+      pot-clear_53: -8800223730651006465
+      pot-clear_54: -4776934492600981453
+      pot-clear_55: -4676316298266305189
+      pot-clear_56: -5364676944461072236
+      pot-clear_57: 2811392150994755195
+      pot-clear_58: 6034886417963036284
+      pot-clear_59: -5085730140416938741
+      pot-clear_6: -7028584153085205075
+      pot-clear_7: 2005252546909530790
+      pot-clear_8: 222625904587851764
+      pot-clear_9: 3694338900834725377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

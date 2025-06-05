@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0a2aa1fd243484aa28085348eb1d9ee5
+guid: b219d4438dffa41f89de55f7bd3f3288
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1943621599020314056
-    second: Cup_With_3 1_0
+      213: 5477770370172515638
+    second: stove-background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,11 +96,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cup_With_3 1_0
+      name: stove-background_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cde16beb8129fa10800000000000000
-      internalID: 1943621599020314056
+      spriteID: 635fa431123f40c40800000000000000
+      internalID: 5477770370172515638
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Cup_With_3 1_0: 1943621599020314056
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
