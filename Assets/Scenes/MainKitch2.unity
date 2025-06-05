@@ -1971,10 +1971,10 @@ RectTransform:
   - {fileID: 3652220154343259747}
   - {fileID: 1801025964491919953}
   - {fileID: 936082274}
-  - {fileID: 2870701111740275485}
   - {fileID: 961559}
   - {fileID: 186764300}
   - {fileID: 1699537261}
+  - {fileID: 2870701111740275485}
   - {fileID: 1749575771}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2712,8 +2712,8 @@ MonoBehaviour:
     m_Right: 30
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 5
-  m_StartCorner: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 2
   m_StartAxis: 0
   m_CellSize: {x: 170, y: 170}
   m_Spacing: {x: 5, y: 5}
@@ -2798,7 +2798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 697, y: 506}
+  m_AnchoredPosition: {x: 557, y: 167}
   m_SizeDelta: {x: 55, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387033871544635216
@@ -3320,7 +3320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.62352943, g: 0.47058824, b: 0.34509805, a: 0.72156864}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3620,8 +3620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1767.6, y: -540}
-  m_SizeDelta: {x: 304.748, y: 1080}
+  m_AnchoredPosition: {x: 1003.9, y: -540.677}
+  m_SizeDelta: {x: 1129.1, y: 454.5182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8746949098686223741
 GameObject:

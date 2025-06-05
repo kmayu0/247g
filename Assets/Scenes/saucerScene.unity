@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.62352943, g: 0.47058824, b: 0.34509805, a: 0.72156864}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -719,7 +719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 713, y: 488}
+  m_AnchoredPosition: {x: 571, y: 170.01}
   m_SizeDelta: {x: 88.0387, y: 103.6772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444954674
@@ -2828,8 +2828,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1767.6, y: -540}
-  m_SizeDelta: {x: 304.748, y: 1080}
+  m_AnchoredPosition: {x: 1009.3, y: -540}
+  m_SizeDelta: {x: 1131.4, y: 443.7058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542200274
 MonoBehaviour:
@@ -2848,8 +2848,8 @@ MonoBehaviour:
     m_Right: 30
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 5
-  m_StartCorner: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 2
   m_StartAxis: 0
   m_CellSize: {x: 170, y: 170}
   m_Spacing: {x: 5, y: 5}
