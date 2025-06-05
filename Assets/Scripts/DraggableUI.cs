@@ -23,6 +23,11 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         canvasGroup = gameObject.AddComponent<CanvasGroup>();
         originalPosition = rectTransform.anchoredPosition;
         LoadPosition();
+        if (PlayerPrefs.GetInt("Locked_" + pieceID, 0) == 1)
+        {
+            this.enabled = false; // disables dragging component
+        }
+
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -52,6 +57,8 @@ public class DraggableUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             rectTransform.anchoredPosition = targetTransform.anchoredPosition;
             SavePosition(); // ✅ NEW
             this.enabled = false;
+            PlayerPrefs.SetInt("Locked_" + pieceID, 1);
+            PlayerPrefs.Save();
             if (puzzleManager != null)
             {
                 puzzleManager.CheckCompletion();
