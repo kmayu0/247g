@@ -6,6 +6,8 @@ public class PuzzleManager : MonoBehaviour
     public GameObject[] hiddenPuzzlePieces;        // Hidden pieces in the scene
     public GameObject successMessage;
 
+    private const string RevealedKeyPrefix = "PieceRevealed_";
+
     void Start()
     {
         successMessage.SetActive(false);
@@ -17,10 +19,11 @@ public class PuzzleManager : MonoBehaviour
             puzzlePiecesUI[i].LoadPosition(); // Load saved position
         }
 
-        // Hide all puzzle pieces in the scene at start
-        foreach (var piece in hiddenPuzzlePieces)
+        // Load revealed state and update pieces visibility
+        for (int i = 0; i < hiddenPuzzlePieces.Length; i++)
         {
-            piece.SetActive(false);
+            bool revealed = PlayerPrefs.GetInt(RevealedKeyPrefix + i, 0) == 1;
+            hiddenPuzzlePieces[i].SetActive(revealed);
         }
     }
 
@@ -31,6 +34,10 @@ public class PuzzleManager : MonoBehaviour
         if (index >= 0 && index < hiddenPuzzlePieces.Length)
         {
             hiddenPuzzlePieces[index].SetActive(true);
+
+            // Save revealed state
+            PlayerPrefs.SetInt(RevealedKeyPrefix + index, 1);
+            PlayerPrefs.Save();
         }
         else
         {
@@ -54,6 +61,7 @@ public class PuzzleManager : MonoBehaviour
         {
             PlayerPrefs.DeleteKey(piece.pieceID + "_x");
             PlayerPrefs.DeleteKey(piece.pieceID + "_y");
+            PlayerPrefs.DeleteKey(RevealedKeyPrefix + piece.pieceIndex);  // Also clear revealed flags
         }
 
         PlayerPrefs.Save();
