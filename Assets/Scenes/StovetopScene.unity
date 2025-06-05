@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af84099525b814d5989ffc30559eec79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 93f42fa94a4a040ae92452956a7182c7, type: 3}
 --- !u!114 &331287003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,7 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af84099525b814d5989ffc30559eec79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 93f42fa94a4a040ae92452956a7182c7, type: 3}
 --- !u!114 &391476941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af84099525b814d5989ffc30559eec79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 93f42fa94a4a040ae92452956a7182c7, type: 3}
 --- !u!114 &616388708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,7 +1634,6 @@ GameObject:
   - component: {fileID: 1511092118}
   - component: {fileID: 1511092117}
   - component: {fileID: 1511092120}
-  - component: {fileID: 1511092121}
   m_Layer: 5
   m_Name: Dial1
   m_TagString: Untagged
@@ -1673,7 +1672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af84099525b814d5989ffc30559eec79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 0}
+  clickSound: {fileID: 8300000, guid: 93f42fa94a4a040ae92452956a7182c7, type: 3}
 --- !u!114 &1511092118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1712,20 +1711,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511092115}
   m_CullTransparentMesh: 1
---- !u!114 &1511092120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511092115}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af84099525b814d5989ffc30559eec79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickSound: {fileID: 0}
---- !u!82 &1511092121
+--- !u!82 &1511092120
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1737,7 +1723,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 93f42fa94a4a040ae92452956a7182c7, type: 3}
   m_Resource: {fileID: 8300000, guid: 93f42fa94a4a040ae92452956a7182c7, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
