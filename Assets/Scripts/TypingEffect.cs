@@ -8,7 +8,7 @@ public class TypingEffect : MonoBehaviour
     public TextMeshProUGUI tmpText;
     public string fullText = "Typing like a typewriter!";
     public float typingSpeed = 0.05f;
-    public Button nextButton; // Optional
+    public GameObject[] nextButtons; // Changed to array
 
     void Start()
     {
@@ -18,9 +18,13 @@ public class TypingEffect : MonoBehaviour
             return;
         }
 
-        if (nextButton != null)
+        if (nextButtons != null)
         {
-            nextButton.gameObject.SetActive(false); // hide at start
+            foreach (GameObject button in nextButtons)
+            {
+                if (button != null)
+                    button.SetActive(false); // Hide each at start
+            }
         }
 
         StartCoroutine(TypeText());
@@ -35,9 +39,13 @@ public class TypingEffect : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        if (nextButton != null)
+        if (nextButtons != null)
         {
-            nextButton.gameObject.SetActive(true); // show when done
+            foreach (GameObject button in nextButtons)
+            {
+                if (button != null)
+                    button.SetActive(true); // Show each when done
+            }
         }
     }
 }

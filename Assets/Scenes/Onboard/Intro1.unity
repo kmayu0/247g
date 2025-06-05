@@ -808,7 +808,9 @@ MonoBehaviour:
   tmpText: {fileID: 227551485}
   fullText: The bakery is yours Mochi!
   typingSpeed: 0.05
-  nextButton: {fileID: 53730361}
+  nextButtons:
+  - {fileID: 53730359}
+  - {fileID: 624022970}
 --- !u!1 &624022970
 GameObject:
   m_ObjectHideFlags: 0

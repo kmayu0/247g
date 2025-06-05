@@ -258,7 +258,7 @@ MonoBehaviour:
   clickSound: {fileID: 8300000, guid: d274bdcbbfd224a778b0159cc3d087f4, type: 3}
   sceneToLoad: MainKitch2
   delayBeforeLoad: 0.3
-  dialManager: {fileID: 0}
+  puzzlePieceIDs: []
 --- !u!1 &102938443
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +935,8 @@ MonoBehaviour:
   tmpText: {fileID: 227551485}
   fullText: Will you help me figure out  how to run our bakery?
   typingSpeed: 0.05
-  nextButton: {fileID: 53730361}
+  nextButtons:
+  - {fileID: 53730359}
 --- !u!1 &879645485
 GameObject:
   m_ObjectHideFlags: 0
