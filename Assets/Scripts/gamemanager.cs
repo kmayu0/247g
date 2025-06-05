@@ -38,6 +38,7 @@ public TMPro.TextMeshProUGUI scoreboard;
             title.SetActive(false); 
             if (score == 30) {
                 win = true;
+                SceneManager.LoadScene("endscene");
             }
 }
     }
