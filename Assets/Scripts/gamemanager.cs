@@ -36,7 +36,7 @@ public TMPro.TextMeshProUGUI scoreboard;
         else
         {
             title.SetActive(false); 
-            if (score == 30) {
+            if (score == 20) {
                 win = true;
                 SceneManager.LoadScene("endscene");
             }
