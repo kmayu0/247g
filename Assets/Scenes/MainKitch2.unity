@@ -3338,6 +3338,7 @@ MonoBehaviour:
   - itemName: Piece6
     prefab: {fileID: 7946500868296198715, guid: 1a3cff55a1c054f6ca28fcf3737e4ca0, type: 3}
   puzzleManager: {fileID: 0}
+  screenToDisableClickOn: {fileID: 287918998641075269}
 --- !u!1 &4149069358311954786
 GameObject:
   m_ObjectHideFlags: 0

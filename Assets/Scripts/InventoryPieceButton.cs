@@ -5,6 +5,7 @@ public class InventoryPieceButton : MonoBehaviour
 {
     public int pieceIndex; // index in PuzzleManager.hiddenPuzzlePieces
     public PuzzleManager puzzleManager;
+    // public GameObject screenToDisableClickOn;
 
     private Button button;
     private string prefsKey;
@@ -27,6 +28,11 @@ public class InventoryPieceButton : MonoBehaviour
 
     public void OnPieceClicked()
     {
+           if (screenToDisableClickOn != null && screenToDisableClickOn.activeInHierarchy)
+        {
+            Debug.Log("Click ignored: this button is disabled on the current screen.");
+            return;
+        }
         if (puzzleManager != null)
         {
             puzzleManager.RevealPiece(pieceIndex);

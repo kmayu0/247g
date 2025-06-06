@@ -16,6 +16,8 @@ public class InventoryUI : MonoBehaviour
     public GameObject inventoryToggleButton;
     public List<ItemUIPrefab> itemPrefabs;
     public PuzzleManager puzzleManager;
+    public GameObject screenToDisableClickOn; // testing this lol 
+
 
     private void Start()
     {
@@ -65,6 +67,7 @@ public class InventoryUI : MonoBehaviour
                 if (btn != null)
                 {
                     btn.puzzleManager = puzzleManager;
+                      btn.screenToDisableClickOn = screenToDisableClickOn;
                     buttons.Add((btn.pieceIndex, go));
                     Debug.Log($"Loaded button for {item} with index {btn.pieceIndex}");
                 }
