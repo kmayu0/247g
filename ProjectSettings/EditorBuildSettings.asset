@@ -137,6 +137,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cabinetScene.unity
     guid: 3e39d61e658894ad095f2d91a3d5046c
+  - enabled: 1
+    path: Assets/Scenes/drawerLetter.unity
+    guid: b84b5c4e14a124e06a00061bd25cfa26
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
