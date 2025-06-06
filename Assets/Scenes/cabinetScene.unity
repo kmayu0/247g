@@ -341,8 +341,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d8da88b6edce44531af2af7266f1bcd7, type: 3}
-  m_Resource: {fileID: 8300000, guid: d8da88b6edce44531af2af7266f1bcd7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 91b1a0cd9ea9249a8ae1e4dd2cb0a4ae, type: 3}
+  m_Resource: {fileID: 8300000, guid: 91b1a0cd9ea9249a8ae1e4dd2cb0a4ae, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -350,7 +350,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 173
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be099e076b2f64a5f927c411224f5b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: breadScene
+  sceneToLoad: doorScene
 --- !u!114 &1639918113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 1965388506}
   - component: {fileID: 1965388508}
   m_Layer: 5
-  m_Name: drawer
+  m_Name: cabin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -894,7 +894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4136729397018612694, guid: 0da851862d41a4c1aad95d03033c143c, type: 3}
+  m_Sprite: {fileID: -2788250296871982078, guid: dad8a3f680e4e4c6aa1170eb4d83dae0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -922,8 +922,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5cfe443aad7794035874825b1b2eb335, type: 3}
-  m_Resource: {fileID: 8300000, guid: 5cfe443aad7794035874825b1b2eb335, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 91b1a0cd9ea9249a8ae1e4dd2cb0a4ae, type: 3}
+  m_Resource: {fileID: 8300000, guid: 91b1a0cd9ea9249a8ae1e4dd2cb0a4ae, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -931,7 +931,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 147
+  Priority: 165
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
