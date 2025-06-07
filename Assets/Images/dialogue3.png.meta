@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e027d3ed39f304bcba1e3ea2cbeccde8
+guid: 4f56795e39198443f8513f21696c23a8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4992500446884932343
-    second: dialogue3_0
+      213: -2559969636510274357
+    second: 20dia3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dialogue3_0
+      name: 20dia3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 905d1728b4317bab0800000000000000
-      internalID: -4992500446884932343
+      spriteID: bcce40ccd29297cd0800000000000000
+      internalID: -2559969636510274357
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dialogue3_0: -4992500446884932343
+      20dia3_0: -2559969636510274357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

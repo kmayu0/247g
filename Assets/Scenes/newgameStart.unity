@@ -375,7 +375,7 @@ MonoBehaviour:
   dialogueSprites:
   - {fileID: 8635439369463462228, guid: db9ae6e149c0542cc8984a4604d5e776, type: 3}
   - {fileID: 12518959026227661, guid: ac7139c83e69e412d9c3bf3b97f9db87, type: 3}
-  - {fileID: -4992500446884932343, guid: e027d3ed39f304bcba1e3ea2cbeccde8, type: 3}
+  - {fileID: -2559969636510274357, guid: 4f56795e39198443f8513f21696c23a8, type: 3}
   nextButton: {fileID: 212237293}
 --- !u!4 &655133569
 Transform:

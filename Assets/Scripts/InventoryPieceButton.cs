@@ -5,7 +5,7 @@ public class InventoryPieceButton : MonoBehaviour
 {
     public int pieceIndex; // index in PuzzleManager.hiddenPuzzlePieces
     public PuzzleManager puzzleManager;
-    // public GameObject screenToDisableClickOn;
+    public GameObject screenToDisableClickOn;
 
     private Button button;
     private string prefsKey;
